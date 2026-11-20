@@ -1,0 +1,127 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Практические IT-курсы Cheksyz AI. Выберите направление, изучите программу и заполните заявку.">
+  <title>Cheksyz AI — практические IT-курсы</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="courses.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">К основному содержанию</a>
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top"><span class="mark" aria-hidden="true">✳</span> Cheksyz<span> AI</span></a>
+      <button type="button" class="menu" aria-expanded="false" aria-controls="navigation">Меню</button>
+      <nav id="navigation" aria-label="Основная навигация">
+        <a href="#courses">Курсы</a><a href="#about">О нас</a><a href="#teachers">Преподаватели</a><a href="#results">Результаты</a><a href="#faq">FAQ</a><a class="button small" href="#apply">Записаться</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <section id="top" class="hero" aria-labelledby="intro">
+      <div class="wrap hero-inner">
+        <div>
+          <p class="eyebrow">Практические IT-курсы</p>
+          <h1 id="intro">Освой IT.<br>Создай свой<br><em>первый проект.</em></h1>
+          <p class="lead">Программирование, аналитика данных, дизайн и AI. Выберите направление и примените новые навыки в собственной работе.</p>
+          <div class="actions"><a class="button" href="#courses">Выбрать курс</a><a class="button outline" href="#apply">Записаться</a></div>
+        </div>
+        <div class="hero-art" aria-hidden="true"><div class="orbit"></div><div class="orbit orbit-small"></div><div class="art-core">✳</div><span class="art-tag tag-one">&lt;/&gt;</span><span class="art-tag tag-two">SQL</span><span class="art-tag tag-three">UX</span></div>
+      </div>
+    </section>
+    <section id="courses" class="section wrap" aria-labelledby="course-heading">
+      <p class="eyebrow">Каталог</p>
+      <h2 id="course-heading">Выберите направление</h2>
+      <p class="intro">Изучите примеры программ. Сроки и формат уточняются перед набором.</p>
+      <noscript><p>Включите JavaScript, чтобы открыть каталог и заполнить заявку.</p></noscript>
+      <ul role="list" class="course-grid" id="course-list"></ul>
+    </section>
+    <section id="about" class="section light" aria-labelledby="about-heading">
+      <div class="wrap">
+        <h2 id="about-heading">Как проходит обучение</h2>
+        <p class="intro">На каждом этапе вы применяете знания на практике. Итоговую работу можно добавить в портфолио.</p>
+        <ol class="steps" role="list">
+          <li><strong>Теория</strong><span>Разбираете основы и новые инструменты.</span></li>
+          <li><strong>Демонстрация</strong><span>Смотрите, как решается реальная задача.</span></li>
+          <li><strong>Практика</strong><span>Повторяете действия на своём примере.</span></li>
+          <li><strong>Домашнее задание</strong><span>Закрепляете навык и разбираете ошибки.</span></li>
+          <li><strong>Проект</strong><span>Собираете работу для портфолио.</span></li>
+        </ol>
+        <h3>Что даёт обучение</h3>
+        <ul role="list" class="benefits"><li>Программы для старта с нуля</li><li>Современные инструменты</li><li>Практика на реальных задачах</li><li>Проект для портфолио</li></ul>
+      </div>
+    </section>
+    <section id="teachers" class="section wrap" aria-labelledby="teachers-heading">
+      <h2 id="teachers-heading">Преподаватели</h2>
+      <p class="intro">Имена, фотографии и опыт преподавателей появятся после утверждения состава команды.</p>
+      <ul role="list" class="simple-grid">
+        <li><h3>Веб-разработка</h3><p>Курс «Frontend с нуля»</p></li>
+        <li><h3>Аналитика данных</h3><p>Курс «Data Analytics»</p></li>
+        <li><h3>AI и автоматизация</h3><p>Курсы «AI-инструменты» и «Vibe Coding»</p></li>
+        <li><h3>Дизайн интерфейсов</h3><p>Курс «UI/UX Design»</p></li>
+      </ul>
+    </section>
+    <section id="results" class="section light" aria-labelledby="results-heading">
+      <div class="wrap">
+        <h2 id="results-heading">Что вы сможете создать</h2>
+        <p class="intro">Примеры проектов для портфолио.</p>
+        <ul role="list" class="simple-grid projects">
+          <li><span aria-hidden="true">&lt;/&gt;</span><h3>Адаптивный сайт</h3><p>Страница продукта с каталогом и доступной формой.</p></li>
+          <li><span aria-hidden="true">▥</span><h3>Дашборд продаж</h3><p>Отчёт с ключевыми метриками, графиками и выводами.</p></li>
+          <li><span aria-hidden="true">✳</span><h3>AI-инструмент</h3><p>Помощник, который превращает заметки в список задач.</p></li>
+          <li><span aria-hidden="true">◫</span><h3>Прототип интерфейса</h3><p>Сценарий записи на услугу с интерактивными экранами.</p></li>
+        </ul>
+        <h3>Отзывы</h3>
+        <p>Отзывы и результаты выпускников появятся после согласования с авторами.</p>
+      </div>
+    </section>
+    <section id="faq" class="section wrap faq" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Частые вопросы</h2>
+      <details><summary>Можно ли начать с нуля?</summary><p>Да. В каталоге ищите курсы с пометкой «С нуля». В каждой программе указано, кому она подходит.</p></details>
+      <details><summary>Нужен ли мощный компьютер?</summary><p>Для базовых веб-курсов обычно достаточно ноутбука с современным браузером. Для конкретных инструментов уточните требования перед записью.</p></details>
+      <details><summary>Как проходит обучение?</summary><p>Теория и демонстрация сменяются практикой, самостоятельными заданиями и итоговым проектом. Формат указан в программе.</p></details>
+      <details><summary>Сколько длится курс?</summary><p>Ориентир указан в карточке курса. Расписание и количество занятий уточняются перед набором.</p></details>
+      <details><summary>Есть ли домашние задания?</summary><p>Да. Они помогают закрепить навык и подготовиться к итоговому проекту.</p></details>
+      <details><summary>Будет ли сертификат?</summary><p>Условия выдачи сертификата уточняются перед набором.</p></details>
+      <details><summary>Можно ли собрать портфолио?</summary><p>В программах предусмотрен итоговый проект, который можно включить в портфолио.</p></details>
+      <details><summary>Можно ли совмещать курс с работой или учёбой?</summary><p>Сверьте расписание группы со своим графиком и заложите время на практику между занятиями.</p></details>
+    </section>
+    <section id="apply" class="section apply" aria-labelledby="apply-heading">
+      <div class="wrap apply-grid">
+        <div><p class="eyebrow">Заявка на обучение</p><h2 id="apply-heading" tabindex="-1">Записаться на курс</h2><p>Выберите курс и удобный способ связи.</p></div>
+        <form id="application" aria-describedby="demo-note">
+          <p id="demo-note" class="notice">Тестовая форма. Используйте вымышленные данные. Заявка сохраняется только в этом браузере.</p>
+          <fieldset id="application-fields" disabled>
+            <legend>Данные заявки</legend>
+            <div class="fields">
+              <div><label for="name">Имя</label><input id="name" name="name" required autocomplete="name" maxlength="80"></div>
+              <div><label for="phone">Телефон</label><input id="phone" name="phone" type="tel" required autocomplete="tel" maxlength="30" aria-describedby="phone-help"><small id="phone-help">Например, +996 700 123 456</small></div>
+              <div><label for="course">Курс</label><select id="course" name="course" required><option value="">Выберите курс</option></select></div>
+              <div><label for="contact">Способ связи</label><select id="contact" name="contact" required><option value="">Выберите способ</option><option>Звонок</option><option>WhatsApp</option><option>Telegram</option></select></div>
+            </div>
+            <button class="button" type="submit">Записаться</button>
+          </fieldset>
+          <p id="form-error" role="alert"></p>
+          <p id="form-success" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div><a class="brand" href="#top"><span class="mark" aria-hidden="true">✳</span> Cheksyz<span> AI</span></a><p>Школа практических IT-курсов</p></div>
+      <div><h2>Направления</h2><ul role="list" id="footer-courses"></ul></div>
+      <div><h2>Контакты</h2><p>Контакты, адрес и ссылки на соцсети будут добавлены после подтверждения.</p></div>
+    </div>
+  </footer>
+  <dialog id="course-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-top"><h2 id="dialog-title" tabindex="-1"></h2><form method="dialog"><button class="button outline small">Закрыть</button></form></div>
+    <div id="dialog-body"></div>
+    <button class="button" type="button" id="dialog-apply">Записаться на курс</button>
+  </dialog>
+</body>
+</html>
+
